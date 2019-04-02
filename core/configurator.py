@@ -20,7 +20,7 @@ class BotConfigurator(object):
     def __init__(self):
         config_path = os.path.join(CONFIG_FILE_PATH)
 
-        if config_path:
+        if os.path.isfile(config_path):
             self._app_config = configparser.ConfigParser()
             self._app_config.read(config_path)
 
