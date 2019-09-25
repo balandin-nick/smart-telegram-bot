@@ -19,6 +19,8 @@ session_id = SESSION_ID
 
 ## Flake8
 
+Для соблюдения `code-style` использовался Flake8 со следующими настройками:
+
 ```ini
 [flake8]
 max-line-length = 120
